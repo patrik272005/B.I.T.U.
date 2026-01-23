@@ -36,7 +36,7 @@ export default function Home() {
       />
 
       <div className="main">
-        <Navbar toggleSidebar={() => setSidebarOpen(true)} />
+        <Navbar toggleSidebar={() => setSidebarOpen((prev) => !prev)} />
         <Container messages={chats[activeChat].messages} />
         <ChatInput onSend={sendMessage} />
       </div>
