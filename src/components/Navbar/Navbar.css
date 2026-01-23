@@ -1,25 +1,31 @@
 .navbar {
+  height: 56px;
+  background: #1a1a1a;
+  color: white;
+  padding: 0 16px;
   display: flex;
   align-items: center;
-  padding: 10px 20px;
-  background-color: #343541;
-  color: white;
-  border-bottom: 1px solid #555;
+  gap: 12px;
 }
 
 .menu-btn {
   background: none;
   border: none;
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   cursor: pointer;
-  margin-right: 15px;
-  display: flex;
-  align-items: center;
 }
 
-@media (min-width: 769px) {
-  .navbar {
-    display: none;
-  }
+.title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.offer {
+  margin-left: auto;
+  background: #6a5acd;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: white;
 }
