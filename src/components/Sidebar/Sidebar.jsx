@@ -3,7 +3,7 @@ import "./Sidebar.css";
 import { RiChatNewLine } from "react-icons/ri";
 import { IoImage, IoApps } from "react-icons/io5";
 import { GoProjectTemplate } from "react-icons/go";
-import { FaToggleOn } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
 
 export default function Sidebar({ open, closeSidebar, toggleSidebar }) {
   const chats = [
@@ -18,7 +18,7 @@ export default function Sidebar({ open, closeSidebar, toggleSidebar }) {
       <div className="sidebar-header">
         <h2 className="logo">T.I.V.A.</h2>
         <button className="close-btn" onClick={closeSidebar}>
-          <FaToggleOn />
+          <FaTimes />
         </button>
       </div>
 
