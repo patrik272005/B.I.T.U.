@@ -16,7 +16,7 @@ export default function Sidebar({ open, closeSidebar, toggleSidebar }) {
   return (
     <aside className={`sidebar ${open ? "open" : ""}`}>
       <div className="sidebar-header">
-        <h2 className="logo">T.I.V.A.</h2>
+        <h2 className="logo">B.I.T.U.</h2>
         <button className="close-btn" onClick={closeSidebar}>
           <FaTimes />
         </button>
