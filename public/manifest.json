@@ -1,19 +1,19 @@
 {
-  "short_name": "T.I.V.A.",
-  "name": "T.I.V.A. by Sans",
+  "short_name": "B.I.T.U.",
+  "name": "B.I.T.U. by Pratik",
   "icons": [
     {
-      "src": "logo.png",
+      "src": "the-bitu.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo.png",
+      "src": "the-bitu.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo.png",
+      "src": "the-bitu.png",
       "type": "image/png",
       "sizes": "512x512"
     }

@@ -7,8 +7,8 @@ export default function Container({ messages }) {
     return (
       <div className="chat-container empty">
         <img
-          src="/logo.png"
-          alt="T.I.V.A. Logo"
+          src="/the-bitu.png"
+          alt="B.I.T.U. Logo"
           className="center-logo"
         />
         <h1>What can I help with?</h1>
